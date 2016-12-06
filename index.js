@@ -26,8 +26,8 @@ module.exports = {
     'babel/arrow-parens': [2, 'always'],
     'babel/new-cap': 0,
     'babel/object-curly-spacing': [2, 'never'],
-    // Use shorthand when possible
-    // 'babel/object-shorthand': 2,
+    // Ignore object shorthand (To be consistent with other languages)
+    'babel/object-shorthand': 0,
     'block-scoped-var': 2,
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs'],
