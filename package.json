@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-distru",
+  "version": "0.0.1",
+  "description": "Distru config rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnyji/esint-config-distru.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "babel",
+    "react"
+  ],
+  "author": "Johnny Ji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnyji/esint-config-distru/issues"
+  },
+  "homepage": "https://github.com/johnnyji/esint-config-distru#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-react": "^5.0.1"
+  }
+}
