@@ -5,6 +5,12 @@ module.exports = {
     'es6': true
   },
   'extends': ['eslint:recommended', 'plugin:react/recommended'],
+  'globals': {
+    'window': true,
+    'document': true,
+    '__DEV__': true,
+    '__PROD__': true
+  },
   'parser': 'babel-eslint',
   'parserOptions': {
     'ecmaFeatures': {
@@ -26,8 +32,8 @@ module.exports = {
     'babel/arrow-parens': [2, 'always'],
     'babel/new-cap': 0,
     'babel/object-curly-spacing': [2, 'never'],
-    // Ignore object shorthand (To be consistent with other languages)
-    'babel/object-shorthand': 0,
+    // Don't use object shorthand (To be consistent with other languages)
+    'babel/object-shorthand': [1, 'never'],
     'block-scoped-var': 2,
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs'],
