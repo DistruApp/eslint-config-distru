@@ -33,7 +33,7 @@ module.exports = {
     'babel/new-cap': 0,
     'babel/object-curly-spacing': [2, 'never'],
     // Don't use object shorthand (To be consistent with other languages)
-    'babel/object-shorthand': [0, 'never'],
+    'babel/object-shorthand': 0,
     'block-scoped-var': 2,
     'block-spacing': [2, 'always'],
     'brace-style': [2, '1tbs'],
@@ -102,7 +102,7 @@ module.exports = {
     // Cannot use the `with` statement
     'no-with': 2,
     // Don't use object shorthand (To be consistent with other languages)
-    'object-shorthand': [0, 'never'],
+    'object-shorthand': 0,
     // Disallows multiple variable declarations on one line
     'one-var-declaration-per-line': 2,
     'prefer-arrow-callback': 2,
