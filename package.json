@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnnyji/esint-config-distru.git"
+    "url": "git+https://github.com/johnnyji/eslint-config-distru.git"
   },
   "keywords": [
     "eslint",
@@ -19,9 +19,9 @@
   "author": "Johnny Ji",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnnyji/esint-config-distru/issues"
+    "url": "https://github.com/johnnyji/eslint-config-distru/issues"
   },
-  "homepage": "https://github.com/johnnyji/esint-config-distru#readme",
+  "homepage": "https://github.com/johnnyji/eslint-config-distru#readme",
   "devDependencies": {
     "babel-eslint": "^6.0.4",
     "eslint": "^2.9.0",
