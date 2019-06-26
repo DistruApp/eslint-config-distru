@@ -29,7 +29,7 @@ module.exports = {
     // Never put spaces in opening/closing brackets of arrays
     'array-bracket-spacing': [2, 'never'],
     'arrow-spacing': 2,
-    'babel/arrow-parens': [2, 'always'],
+    'arrow-parens': [2, 'always'],
     'babel/new-cap': 0,
     'babel/object-curly-spacing': [2, 'never'],
     // Don't use object shorthand (To be consistent with other languages)
