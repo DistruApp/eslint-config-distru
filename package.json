@@ -24,7 +24,7 @@
   "homepage": "https://github.com/johnnyji/eslint-config-distru#readme",
   "devDependencies": {
     "babel-eslint": "^6.0.4",
-    "eslint": "^2.9.0",
+    "eslint": "^6.6.0",
     "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-react": "^5.0.1"
   }
